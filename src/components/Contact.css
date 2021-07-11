@@ -1,0 +1,51 @@
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:300px;
+    width:400px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:300px;
+    width:400px;
+}
+
+li a{
+    display: inline-block;
+    min-width: 5em;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 11px;
+    text-decoration: none;
+}
+a:hover, .link:hover{
+    background: crimson;
+    color: black;
+}
+
+h1{
+    margin: 10%;
+}
+.address{
+    margin: 1em;
+}
+.message{
+    display: inline-block;
+}
+.link, .mapouter{
+    margin-left: 1em;
+    margin-top: 1em;
+    background: grey;
+}
+input.link{
+    background: black;
+    color: rgb(221, 218, 218);
+    width: min-content;
+}
+.message form{
+    background: rgb(221, 218, 218);
+}
