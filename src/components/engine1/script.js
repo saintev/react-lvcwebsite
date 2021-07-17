@@ -1,3 +1,4 @@
+
 // -----------------------------------------------------------------------------------
 // http://wowslider.com/
 // JavaScript Wow Slider is a free software that helps you easily generate delicious 

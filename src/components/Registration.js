@@ -17,7 +17,7 @@ const Registration = () =>{
         setEmail('');
         setCourse('');
         setText('');
-        setMessage('Thank you for registering!');
+        setMessage(`Thank you ${name} for registering!`);
         
     }
     

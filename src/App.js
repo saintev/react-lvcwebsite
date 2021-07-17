@@ -9,6 +9,8 @@ import Registration from './components/Registration';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import ContactForm from './components/ContactForm';
+import Home from './components/Home';
+import './App.css';
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         </header>
         <div className='content'>
           <Switch>
+            <Route exact path="/home" component={Home}/>
             <Route exact path="/registration" component={Registration}/>
             <Route exact path="/gallery" component={Gallery}/>
             <Route exact path="/contact" component={Contact}/>
