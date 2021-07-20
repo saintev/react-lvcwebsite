@@ -17,7 +17,10 @@ const Registration = () =>{
         setEmail('');
         setCourse('');
         setText('');
-        setMessage(`Thank you ${name} for registering!`);
+        if(name===''){
+            setMessage('Please fill out your name!')
+        }
+        //setMessage(`Thank you ${name} for registering!`);
         
     }
     
@@ -25,7 +28,7 @@ const Registration = () =>{
         <div className="container">
             <form name="htmlForm1" onSubmit={submit}>
                 <label htmlFor="name" >Name:<br></br>
-                <input type="text" name="name" required placeholder="Your Name here" value={name} onChange={e=>{setName(e.target.value)}}/>
+                <input type="text" name="name" placeholder="Your Name here" value={name} onChange={e=>{setName(e.target.value)}}/>
                 </label><br></br>
 
                 <label htmlFor="location">Location:<br></br>
